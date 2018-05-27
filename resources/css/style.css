@@ -7,9 +7,13 @@ p {
   font-size: 14px;
 }
 
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
 .header {
   background-image: url(../images/the-flatiron-building.png);
-  background-size: cover;
 }
 
 .header h1 {
@@ -23,12 +27,29 @@ p {
   font-size: 18px;
 }
 
-.content h2 {
+#process h2 {
   font-size: 32px;
   font-weight: bold;
 }
 
-.content h3 {
-  font-size: 23px;
+.footer {
+  background-color: Dimgray;
+  text-align: left;
+}
+
+.footer span {
+  color: White;
+  font-size: 11px;
+}
+
+.footer a {
+  color:White;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+#divbar {
+  background-image: url(../images/the-flatiron-building.png);
+  color: White;
   font-weight: bold;
 }
